@@ -5,7 +5,9 @@ function Home() {
     <div>
       <h1>Bienvenido a #SoyReal</h1>
       <p>Un espacio para promover la autoestima y la autoaceptación.</p>
-      <img src="https://source.unsplash.com/400x300/?smile" alt="Sonrisa" />
+      <a href="https://drive.google.com/drive/folders/1l12zJYch3312E1tzOQEFi2dwV3cWM66K?usp=drive_link" target="_blank" rel="noopener noreferrer">
+        <img src="https://source.unsplash.com/400x300/?smile" alt="Sonrisa" />
+      </a>
     </div>
   );
 }
