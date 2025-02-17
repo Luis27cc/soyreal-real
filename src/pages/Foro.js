@@ -1,7 +1,12 @@
 import React from "react";
 
 function Foro() {
-  return <h1>Foro de Autoestima y Apoyo</h1>;
+  return (
+    <div>
+      <h1>Foro de Autoestima</h1>
+      <p>Comparte experiencias y apoya a otros en su camino de autoaceptación.</p>
+    </div>
+  );
 }
 
 export default Foro;
