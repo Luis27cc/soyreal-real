@@ -4,8 +4,8 @@ function Home() {
   return (
     <div>
       <h1>Bienvenido a #SoyReal</h1>
-      <p>Una iniciativa para fomentar la autoestima y la autoaceptación.</p>
-      <img src="https://source.unsplash.com/400x300/?happy" alt="Autoestima" />
+      <p>Un espacio para promover la autoestima y la autoaceptación.</p>
+      <img src="https://source.unsplash.com/400x300/?smile" alt="Sonrisa" />
     </div>
   );
 }
