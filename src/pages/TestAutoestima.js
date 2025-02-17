@@ -5,7 +5,9 @@ function TestAutoestima() {
     <div>
       <h1>Test de Autoestima</h1>
       <p>Responde algunas preguntas para evaluar tu autoestima.</p>
-      <button>Iniciar Test</button>
+      <a href="https://drive.google.com/drive/folders/1uGbtRLvdBCVybKLDAgWgL621Oc3ltdu2?usp=drive_link" target="_blank" rel="noopener noreferrer">
+        <button>Iniciar Test</button>
+      </a>
     </div>
   );
 }
