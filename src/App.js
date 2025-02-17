@@ -6,12 +6,13 @@ import Galeria from "./pages/Galeria";
 import Foro from "./pages/Foro";
 import Recursos from "./pages/Recursos";
 import Navbar from "./components/Navbar";
+import "./styles.css"; // Importamos los estilos
 
 function App() {
   return (
     <Router>
       <Navbar />
-      <div style={{ padding: "20px" }}>
+      <div className="container">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/test-autoestima" element={<TestAutoestima />} />
