@@ -11,13 +11,15 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/test-autoestima" element={<TestAutoestima />} />
-        <Route path="/galeria" element={<Galeria />} />
-        <Route path="/foro" element={<Foro />} />
-        <Route path="/recursos" element={<Recursos />} />
-      </Routes>
+      <div style={{ padding: "20px" }}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/test-autoestima" element={<TestAutoestima />} />
+          <Route path="/galeria" element={<Galeria />} />
+          <Route path="/foro" element={<Foro />} />
+          <Route path="/recursos" element={<Recursos />} />
+        </Routes>
+      </div>
     </Router>
   );
 }
