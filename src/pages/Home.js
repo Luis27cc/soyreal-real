@@ -1,7 +1,13 @@
 import React from "react";
 
 function Home() {
-  return <h1>Bienvenido a #SoyReal</h1>;
+  return (
+    <div>
+      <h1>Bienvenido a #SoyReal</h1>
+      <p>Una iniciativa para fomentar la autoestima y la autoaceptación.</p>
+      <img src="https://source.unsplash.com/400x300/?happy" alt="Autoestima" />
+    </div>
+  );
 }
 
 export default Home;
