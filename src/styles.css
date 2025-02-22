@@ -65,9 +65,9 @@ button:hover {
   background-color: #0056b3;
 }
 
-/* 🌟 Estilos de la pantalla de inicio con imagen de fondo */
+/* 🌟 Fondo de la pantalla de inicio */
 .home-container {
-  background-image: url("/fondo-final.jpg"); /* Ruta corregida */
+  background-image: url("https://i.postimg.cc/50dWXJns/fondo-final.jpg"); /* Nueva URL */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -78,9 +78,9 @@ button:hover {
   text-align: center;
 }
 
-/* 🌟 Mantener el texto legible sobre el fondo */
+/* 🌟 Mantener el contenido legible sobre el fondo */
 .content {
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.85); /* Fondo semitransparente */
   padding: 20px;
   border-radius: 10px;
   text-align: center;
