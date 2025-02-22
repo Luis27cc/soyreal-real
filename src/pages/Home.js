@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.css"; // Asegúrate de que este import esté en tu archivo
+import "./styles.css"; // Importamos los estilos correctamente
 
 function Home() {
   return (
