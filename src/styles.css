@@ -1,73 +1,6 @@
-/* 🌟 Estilos generales */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f8f9fa;
-  margin: 0;
-  padding: 0;
-}
-
-/* 🌟 Menú de navegación */
-nav {
-  background-color: #007bff;
-  padding: 15px;
-  display: flex;
-  justify-content: center;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-nav ul li a:hover {
-  text-decoration: underline;
-}
-
-/* 🌟 Contenedor principal */
-.container {
-  max-width: 800px;
-  margin: auto;
-  padding: 20px;
-  background: white;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* 🌟 Títulos */
-h1 {
-  color: #007bff;
-}
-
-/* 🌟 Botones */
-button {
-  background-color: #007bff;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-button:hover {
-  background-color: #0056b3;
-}
-
-/* 🟢 Estilos específicos para la página de inicio */
+/* 🌟 Estilos de la pantalla de inicio con imagen de fondo */
 .home-container {
-  background-image: url("/DALL·E 2025-02-22 20.21.06.webp"); /* Ruta de la imagen */
+  background-image: url("/fondo-inicio.webp"); /* Ruta segura dentro de public/ */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -78,7 +11,7 @@ button:hover {
   text-align: center;
 }
 
-/* 🟢 Contenido en la pantalla de inicio */
+/* 🌟 Mantener el texto legible sobre el fondo */
 .content {
   background: rgba(255, 255, 255, 0.8);
   padding: 20px;
