@@ -1,10 +1,10 @@
 import React from "react";
-import "../styles.css"; // Importamos los estilos
+import "./styles.css"; // Asegúrate de que este import esté en tu archivo
 
 function Home() {
   return (
     <div className="home-container">
-      <div className="content">
+      <div className="home-content">
         <h1>Bienvenido a #SoyReal</h1>
         <p>Un espacio para promover la autoestima y la autoaceptación.</p>
         <a
