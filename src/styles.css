@@ -67,7 +67,7 @@ button:hover {
 
 /* 🌟 Estilos de la pantalla de inicio con imagen de fondo */
 .home-container {
-  background-image: url("/fondo-inicio.webp"); /* Ruta segura dentro de public/ */
+  background-image: url("/fondo-final.jpg"); /* Ruta corregida */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
