@@ -1,5 +1,4 @@
 .home-container {
-  background-image: url("https://i.postimg.cc/50dWXJns/fondo-final.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -9,6 +8,13 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: white; /* Ajusta el color del texto si es necesario */
+  color: white;
   padding: 20px;
+}
+
+.home-container h1,
+.home-container p {
+  background: rgba(0, 0, 0, 0.6); /* Fondo oscuro semitransparente */
+  padding: 10px;
+  border-radius: 5px;
 }
