@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles.css"; // Asegura que la ruta de importación es correcta
+import "../styles.css"; // ✅ Asegura que la importación es correcta
 
 function Home() {
   return (
